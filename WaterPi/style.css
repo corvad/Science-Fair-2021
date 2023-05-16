@@ -1,0 +1,44 @@
+html {
+    text-align: center;
+    color:rgb(235, 232, 232);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: url(https://tinyurl.com/plantimage1) no-repeat center center fixed;
+    /* Image by Noah Buscher under Unsplash License */
+    /* Used TinyUrl to help make it shorter */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#apikey {
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(209, 210, 211);
+    opacity: 0.72;
+    padding: 2px;
+    width: 260px;
+    height: 20px;
+}
+
+#zip {
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(209, 210, 211);
+    opacity: 0.72;
+    padding: 2px;
+    width: 80px;
+    height: 20px;
+}
+
+#button {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: rgb(5, 126, 75);
+    opacity: 0.86;
+    padding: 1px;
+    width: 200px;
+    height: 100px;
+}

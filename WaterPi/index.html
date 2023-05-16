@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Water Pi Config</title>
+</head>
+<body>
+<h1>WaterPi Configurator</h1>
+<h3>Enter the fields below and then submit to have your WaterPi configurated (all fields required).</h3>
+<form action="script.php" method="post">
+    <!--This html form passes on the API Key and the zip code to script.php for saving it to the configuration file through POST-->
+    <label for="apikey">API Key (free from openweathermap.org):</label><br>
+    <input type="text" id="apikey" name="apikey" required><br><br>
+    <label for="zip">Zip Code</label><br>
+    <input type="text" id="zip" name="zip" required><br><br>
+<br>
+    <input type="submit" id="button" value="Configure">
+</br>
+</form>
+</body>
+</html>
